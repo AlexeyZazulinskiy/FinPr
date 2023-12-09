@@ -1,0 +1,22 @@
+Операционные системы и виртуализация (Linux)
+
+$ cat > Pets
+Dogs
+Cats
+Hamsters
+^C
+
+$ cat > Pack_animals
+Horse
+Сamel
+Donkey
+^C
+
+cat Pets Pack_Animals > Human_Friends
+nano Human_Friends
+
+drwxrwxr-x  2 alex alex 4096 дек  9 11:18 ./
+drwxr-xr-x 17 alex alex 4096 дек  9 11:10 ../
+-rw-rw-r--  1 alex alex   31 дек  9 11:18 Human_Friends
+-rw-rw-r--  1 alex alex   12 дек  9 11:16 Pack_Animals
+-rw-rw-r--  1 alex alex   19 дек  9 11:10 Pets
